@@ -2,7 +2,7 @@ const GlobalSettings = {
   development: {
     siteEnvironment: "Development",
     siteName: "Development Site",
-    telephone: "0123456789",
+    telephone: "021-8556109",
   },
   staging: {
     siteEnvironment: "Staging",
@@ -11,8 +11,8 @@ const GlobalSettings = {
   },
   production: {
     siteEnvironment: "",
-    siteName: "Waterpark Site",
-    telephone: "1111111111",
+    siteName: "",
+    telephone: "021 - 855 6109",
   },
 };
 
