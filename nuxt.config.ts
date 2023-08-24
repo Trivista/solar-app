@@ -1,4 +1,4 @@
-import { GlobalSettings } from "./environmentsettings";
+import  GlobalSettings from "./environmentsettings";
 
 const appEnv = process.env.ENV || "development";
 
@@ -11,9 +11,9 @@ export default defineNuxtConfig({
         public: {
             apiBase: '/api',
             companyname: "Premium Solar Energy",
-            siteName: GlobalSettings[appEnv].siteName,
-            telephone: GlobalSettings[appEnv].telephone,
-            siteEnvironment: GlobalSettings[appEnv].siteEnvironment,
+            // siteName: GlobalSettings[appEnv].siteName,
+            // telephone: GlobalSettings[appEnv].telephone,
+            // siteEnvironment: GlobalSettings[appEnv].siteEnvironment,
         }
       },
     modules: ['@pinia/nuxt',],

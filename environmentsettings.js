@@ -16,4 +16,4 @@ const GlobalSettings = {
   },
 };
 
-export { GlobalSettings };
+export default GlobalSettings[process.env.NODE_ENV];
